@@ -18,11 +18,12 @@ live_loop :base do
   play [:d2, :d3, :d4].choose , release: 0.1
   sleep 0.125
 end
-
+=begin
 sleep 4
 
 live_loop :yeah do
-  sample "~/Dropbox/ScotGovDojoJuly2015/Sonic Pi/samples/yeah.wav", rate: 1, release: 1.0, amp: 1.5
+  sample "~/samples/yeah.wav", rate: 1, release: 1.0, amp: 1.5
   sleep 4.0
   sync :beats
 end
+=end
