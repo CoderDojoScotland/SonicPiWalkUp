@@ -1,0 +1,4 @@
+live_loop :drums do
+	sample :bd_haus
+	sleep 0.5
+end

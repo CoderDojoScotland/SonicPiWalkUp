@@ -1,0 +1,4 @@
+live_loop :poppy do
+  sample :elec_pop, rate: 1
+  sleep 0.5
+end

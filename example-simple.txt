@@ -1,0 +1,18 @@
+
+live_loop :base do
+  play [:d2, :d3, :d4].sort , release: 0.1
+  sleep 0.125
+end
+
+live_loop :beats do
+  sample :bd_haus, amp: 3
+  sleep 0.25
+end
+
+live_loop :poppy do
+  sample :elec_pop, rate: 1
+  sleep 0.5
+end
+
+
+

@@ -1,0 +1,10 @@
+live_loop :tune do 
+ use_synth :dsaw
+ play [:d2,:d3,:d4].choose, release: 0.1
+ sleep 0.125
+end
+
+live_loop :drums do
+	sample :bd_haus
+	sleep 0.5
+end

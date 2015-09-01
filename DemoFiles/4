@@ -1,0 +1,23 @@
+
+live_loop :tune do 
+ play :d2
+ sleep 0.125
+ play :d3
+ sleep 0.125
+ play :d4
+end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
